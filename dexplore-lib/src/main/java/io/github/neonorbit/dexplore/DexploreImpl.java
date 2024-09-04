@@ -30,6 +30,7 @@ import io.github.neonorbit.dexplore.task.QueryTask;
 import io.github.neonorbit.dexplore.task.QueryTaskFactory;
 import io.github.neonorbit.dexplore.task.TaskHandler;
 import io.github.neonorbit.dexplore.util.Utils;
+import org.jf.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -101,7 +102,15 @@ final class DexploreImpl implements Dexplore {
                              @Nonnull MethodFilter methodFilter,
                              @Nonnull Operator<MethodData> operator) {
     dexOperation.onMethods(dexFilter, classFilter, methodFilter,
-                           dexMethod -> operator.operate(Results.ofMethod(dexMethod)));
+            dexMethod -> operator.operate(Results.ofMethod(dexMethod)));
+  }
+
+  @Override
+  public void onMethodResultRaw(@Nonnull DexFilter dexFilter,
+                                @Nonnull ClassFilter classFilter,
+                                @Nonnull MethodFilter methodFilter,
+                                @Nonnull Operator<DexBackedMethod> operator) {
+    dexOperation.onMethods(dexFilter, classFilter, methodFilter, operator);
   }
 
   @Override
