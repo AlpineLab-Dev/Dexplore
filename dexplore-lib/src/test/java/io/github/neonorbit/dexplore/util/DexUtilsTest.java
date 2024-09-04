@@ -1,6 +1,6 @@
 package io.github.neonorbit.dexplore.util;
 
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

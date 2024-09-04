@@ -17,16 +17,16 @@
 package io.github.neonorbit.dexplore.filter;
 
 import io.github.neonorbit.dexplore.util.DexUtils;
-import org.jf.dexlib2.ValueType;
-import org.jf.dexlib2.dexbacked.DexBackedClassDef;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
-import org.jf.dexlib2.iface.Annotation;
-import org.jf.dexlib2.iface.AnnotationElement;
-import org.jf.dexlib2.iface.value.AnnotationEncodedValue;
-import org.jf.dexlib2.iface.value.ArrayEncodedValue;
-import org.jf.dexlib2.iface.value.EncodedValue;
-import org.jf.dexlib2.iface.value.StringEncodedValue;
-import org.jf.dexlib2.iface.value.TypeEncodedValue;
+import com.android.tools.smali.dexlib2.ValueType;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedClassDef;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.iface.Annotation;
+import com.android.tools.smali.dexlib2.iface.AnnotationElement;
+import com.android.tools.smali.dexlib2.iface.value.AnnotationEncodedValue;
+import com.android.tools.smali.dexlib2.iface.value.ArrayEncodedValue;
+import com.android.tools.smali.dexlib2.iface.value.EncodedValue;
+import com.android.tools.smali.dexlib2.iface.value.StringEncodedValue;
+import com.android.tools.smali.dexlib2.iface.value.TypeEncodedValue;
 
 import javax.annotation.Nonnull;
 import java.util.HashSet;

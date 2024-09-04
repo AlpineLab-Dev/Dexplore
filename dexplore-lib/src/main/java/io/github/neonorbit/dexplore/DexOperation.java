@@ -24,9 +24,9 @@ import io.github.neonorbit.dexplore.util.DexLog;
 import io.github.neonorbit.dexplore.util.DexUtils;
 import io.github.neonorbit.dexplore.iface.Internal;
 import io.github.neonorbit.dexplore.iface.Operator;
-import org.jf.dexlib2.dexbacked.DexBackedClassDef;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedClassDef;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 

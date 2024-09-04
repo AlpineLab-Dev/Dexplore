@@ -19,7 +19,7 @@ package io.github.neonorbit.dexplore;
 import io.github.neonorbit.dexplore.exception.DexException;
 import io.github.neonorbit.dexplore.exception.FileNotFoundException;
 import io.github.neonorbit.dexplore.exception.UnsupportedFileException;
-import org.jf.dexlib2.DexFileFactory;
+import com.android.tools.smali.dexlib2.DexFileFactory;
 
 import javax.annotation.Nonnull;
 import java.util.Objects;

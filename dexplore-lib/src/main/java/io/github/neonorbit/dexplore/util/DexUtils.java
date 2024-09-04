@@ -17,12 +17,12 @@
 package io.github.neonorbit.dexplore.util;
 
 import io.github.neonorbit.dexplore.iface.Internal;
-import org.jf.dexlib2.AccessFlags;
-import org.jf.dexlib2.analysis.reflection.util.ReflectionUtils;
-import org.jf.dexlib2.dexbacked.DexBackedClassDef;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
-import org.jf.dexlib2.dexbacked.DexBackedField;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.AccessFlags;
+import com.android.tools.smali.dexlib2.analysis.reflection.util.ReflectionUtils;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedClassDef;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedField;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 import java.util.Collection;

@@ -17,7 +17,7 @@
 package io.github.neonorbit.dexplore;
 
 import io.github.neonorbit.dexplore.iface.Internal;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
 
 import javax.annotation.Nonnull;
 

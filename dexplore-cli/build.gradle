@@ -98,6 +98,7 @@ tasks.register('proguard', ProGuardTask) {
     dontwarn 'com.google.gson.**'
     dontwarn 'com.google.protobuf.**'
     dontwarn 'org.jf.util.jcommander.**'
+//    dontwarn 'com.android.tools.smali.util.jcommander.**'
     dontwarn 'org.jetbrains.annotations.ApiStatus*'
     keepattributes '*Annotation*'
     keep 'class jadx.api.JadxDecompiler'

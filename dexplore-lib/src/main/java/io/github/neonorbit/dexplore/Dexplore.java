@@ -24,7 +24,7 @@ import io.github.neonorbit.dexplore.result.DexItemData;
 import io.github.neonorbit.dexplore.result.MethodData;
 import io.github.neonorbit.dexplore.iface.KOperator;
 import io.github.neonorbit.dexplore.iface.Operator;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

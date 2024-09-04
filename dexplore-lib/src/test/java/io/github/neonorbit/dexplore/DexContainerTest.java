@@ -1,8 +1,8 @@
 package io.github.neonorbit.dexplore;
 
 import com.google.common.collect.ImmutableList;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
-import org.jf.dexlib2.iface.MultiDexContainer;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.iface.MultiDexContainer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

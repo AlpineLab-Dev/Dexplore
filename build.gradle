@@ -4,7 +4,7 @@ apply from: "gradle/functions.gradle"
 
 allprojects {
     group = 'io.github.neonorbit'
-    version = '1.4.5' //-SNAPSHOT
+    version = '1.4.6-SNAPSHOT' //-SNAPSHOT
 }
 
 tasks.register('produceJar') {
@@ -32,7 +32,7 @@ ext {
     isLocalRelease  = hasGradleTask('localRelease')
     isMavenRelease  = hasGradleTask('mavenRelease')
     depends = [
-        dexlib2       : 'org.smali:dexlib2:2.5.2',
+        dexlib2       : 'com.android.tools.smali:smali-dexlib2:3.0.7',
         jcommander    : 'com.beust:jcommander:1.82',
         jadx_core     : 'io.github.skylot:jadx-core:1.4.7',
         jadx_plugin   : 'io.github.skylot:jadx-dex-input:1.4.7',

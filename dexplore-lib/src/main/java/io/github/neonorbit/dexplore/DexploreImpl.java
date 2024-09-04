@@ -30,7 +30,7 @@ import io.github.neonorbit.dexplore.task.QueryTask;
 import io.github.neonorbit.dexplore.task.QueryTaskFactory;
 import io.github.neonorbit.dexplore.task.TaskHandler;
 import io.github.neonorbit.dexplore.util.Utils;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

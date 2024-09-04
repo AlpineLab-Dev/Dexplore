@@ -17,8 +17,8 @@
 package io.github.neonorbit.dexplore;
 
 import io.github.neonorbit.dexplore.iface.Internal;
-import org.jf.dexlib2.Opcodes;
-import org.jf.dexlib2.dexbacked.ZipDexContainer;
+import com.android.tools.smali.dexlib2.Opcodes;
+import com.android.tools.smali.dexlib2.dexbacked.ZipDexContainer;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

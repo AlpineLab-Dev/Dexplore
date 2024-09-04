@@ -18,8 +18,8 @@ package io.github.neonorbit.dexplore.reference;
 
 import io.github.neonorbit.dexplore.ReferencePool;
 import io.github.neonorbit.dexplore.util.DexUtils;
-import org.jf.dexlib2.iface.reference.TypeReference;
-import org.jf.dexlib2.immutable.reference.ImmutableTypeReference;
+import com.android.tools.smali.dexlib2.iface.reference.TypeReference;
+import com.android.tools.smali.dexlib2.immutable.reference.ImmutableTypeReference;
 
 import javax.annotation.Nonnull;
 

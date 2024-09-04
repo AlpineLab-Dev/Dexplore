@@ -21,10 +21,10 @@ import io.github.neonorbit.dexplore.reference.MethodRefData;
 import io.github.neonorbit.dexplore.reference.StringRefData;
 import io.github.neonorbit.dexplore.reference.TypeRefData;
 import io.github.neonorbit.dexplore.filter.ReferenceTypes;
-import org.jf.dexlib2.iface.reference.FieldReference;
-import org.jf.dexlib2.iface.reference.MethodReference;
-import org.jf.dexlib2.iface.reference.StringReference;
-import org.jf.dexlib2.iface.reference.TypeReference;
+import com.android.tools.smali.dexlib2.iface.reference.FieldReference;
+import com.android.tools.smali.dexlib2.iface.reference.MethodReference;
+import com.android.tools.smali.dexlib2.iface.reference.StringReference;
+import com.android.tools.smali.dexlib2.iface.reference.TypeReference;
 
 import javax.annotation.Nonnull;
 import java.util.ArrayList;

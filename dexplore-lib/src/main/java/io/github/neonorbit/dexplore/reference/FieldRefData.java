@@ -18,8 +18,8 @@ package io.github.neonorbit.dexplore.reference;
 
 import io.github.neonorbit.dexplore.ReferencePool;
 import io.github.neonorbit.dexplore.util.DexUtils;
-import org.jf.dexlib2.iface.reference.FieldReference;
-import org.jf.dexlib2.immutable.reference.ImmutableFieldReference;
+import com.android.tools.smali.dexlib2.iface.reference.FieldReference;
+import com.android.tools.smali.dexlib2.immutable.reference.ImmutableFieldReference;
 
 import javax.annotation.Nonnull;
 import java.lang.reflect.Field;

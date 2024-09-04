@@ -19,9 +19,9 @@ package io.github.neonorbit.dexplore;
 import io.github.neonorbit.dexplore.exception.DexException;
 import io.github.neonorbit.dexplore.iface.Internal;
 import io.github.neonorbit.dexplore.util.DexLog;
-import org.jf.dexlib2.DexFileFactory;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
-import org.jf.dexlib2.iface.MultiDexContainer;
+import com.android.tools.smali.dexlib2.DexFileFactory;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.iface.MultiDexContainer;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

@@ -18,11 +18,11 @@ package io.github.neonorbit.dexplore;
 
 import io.github.neonorbit.dexplore.exception.DexException;
 import io.github.neonorbit.dexplore.exception.UnsupportedFileException;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile;
-import org.jf.dexlib2.dexbacked.DexBackedDexFile.NotADexFile;
-import org.jf.dexlib2.dexbacked.DexBackedOdexFile;
-import org.jf.dexlib2.dexbacked.DexBackedOdexFile.NotAnOdexFile;
-import org.jf.dexlib2.iface.MultiDexContainer;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedDexFile.NotADexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedOdexFile;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedOdexFile.NotAnOdexFile;
+import com.android.tools.smali.dexlib2.iface.MultiDexContainer;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

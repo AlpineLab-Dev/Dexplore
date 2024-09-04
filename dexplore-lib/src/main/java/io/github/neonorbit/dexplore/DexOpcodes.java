@@ -16,7 +16,7 @@
 
 package io.github.neonorbit.dexplore;
 
-import org.jf.dexlib2.Opcodes;
+import com.android.tools.smali.dexlib2.Opcodes;
 
 /**
  * A wrapper class for {@link Opcodes}

@@ -22,7 +22,7 @@ import io.github.neonorbit.dexplore.exception.AbortException;
 import io.github.neonorbit.dexplore.util.DexUtils;
 import io.github.neonorbit.dexplore.iface.Internal;
 import io.github.neonorbit.dexplore.util.Utils;
-import org.jf.dexlib2.dexbacked.DexBackedMethod;
+import com.android.tools.smali.dexlib2.dexbacked.DexBackedMethod;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
